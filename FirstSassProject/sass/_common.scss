@@ -1,0 +1,36 @@
+#information{
+    width:$main-width;
+    height:$main-height;
+    border: 1px solid black;
+}
+.conatiner{
+    width:$main-width/2;
+    height:$main-height/3;
+    background-color:$main-color;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:$space-x ;
+    background-color:darken($main-color ,30%);
+    padding: $space-4x $space-6x;
+}
+.information-item{
+    width: $main-width/6;
+    height:$main-height/3;
+    background-color: lighten($main-color,25%);
+    text-align: center;
+
+}
+.information-item:hover{
+    background-color: darken($main-color,30%);
+    transition: all 0.4s ease;
+}
+.information-item h1{
+    color: white;
+    font-size:$space-6x;
+    font-weight: 500;
+}
+.information-item p{
+    color: white;
+    font-size:$space-3x;
+    font-weight: 100;
+}

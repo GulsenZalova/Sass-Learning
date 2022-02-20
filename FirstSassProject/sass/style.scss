@@ -1,46 +1,4 @@
-$space-x:5px;
-$space-2x:$space-x*2;
-$space-3x:$space-x*3;
-$space-4x:$space-x*4;
-$space-5x:$space-x*5;
-$space-6x:$space-x*6;
-$main-width:2000px;
-$main-height:600;
-$main-color:blue;
+@import 'variables';
+@import 'common';
 
-#information{
-    width:$main-width;
-    height:$main-height;
-    border: 1px solid black;
-}
-.conatiner{
-    width:$main-width/2;
-    height:$main-height/2;
-    background-color:$main-color;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap:$space-x ;
-    background-color:$main-color;
-    padding: $space-4x $space-6x;
-}
-.information-item{
-    width: $main-width/6;
-    height:$main-height/3;
-    background-color: lighten($main-color,20%);
-    text-align: center;
 
-}
-.information-item:hover{
-    background-color: darken($main-color,30%);
-    transition: all 0.4s ease;
-}
-.information-item h1{
-    color: white;
-    font-size:$space-6x;
-    font-weight: 500;
-}
-.information-item p{
-    color: white;
-    font-size:$space-3x;
-    font-weight: 100;
-}
