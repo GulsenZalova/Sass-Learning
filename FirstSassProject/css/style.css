@@ -1,0 +1,43 @@
+#information {
+  width: 2000px;
+  height: 600;
+  border: 1px solid black;
+}
+
+.conatiner {
+  width: 1000px;
+  height: 300;
+  background-color: blue;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  background-color: blue;
+  padding: 20px 30px;
+}
+
+.information-item {
+  width: 333.33333px;
+  height: 200;
+  background-color: #6666ff;
+  text-align: center;
+}
+
+.information-item:hover {
+  background-color: #000066;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.information-item h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.information-item p {
+  color: white;
+  font-size: 15px;
+  font-weight: 100;
+}
