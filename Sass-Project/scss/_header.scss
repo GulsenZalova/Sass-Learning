@@ -1,0 +1,31 @@
+.main-nav{
+    display: flex;
+    justify-content:space-between ;
+    padding-top: 1rem;
+    &__logo{
+        width: 78px;
+        height: 78px;
+    }
+}
+
+#header{
+    &__home{
+        background-image: url(https://www.twenty20.com/photos/a72b5d59-583f-4392-a40e-5d118dcfa70a);
+        height: 100vh;
+        color: blue;
+
+        .header-content{
+            text-align: center;
+            padding-top: 30%;
+        }
+
+        h1{
+            font-size: 4rem;
+            line-height: 1.2;
+        }
+        .typewrite{
+            display: block;
+        }
+
+    }
+}
