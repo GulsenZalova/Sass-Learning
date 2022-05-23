@@ -1,0 +1,74 @@
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: $main-color;
+    border-radius: 10px;
+    padding:.25rem 1rem ;
+    &:hover{
+        background-color: $main-color-ligth;
+        color: $main-font-color;
+    }
+    animation: iceridenGelen 1s;
+}
+
+.tehsil-card {
+    text-align: center;
+    padding: 1rem;
+    margin: .5rem 1rem;
+    border:  1px solid $main-font-color;
+    border-radius: .5rem;
+    transition: 1s ease-in-out;
+    flex: 1;
+    &:hover{
+        animation: boyut 1s;
+    }
+    &--java{
+     background-color: lighten($color: $main-color, $amount: 5%);
+    //  animation: boyut 1s;
+     } 
+ 
+   &--pythone{
+     background-color: lighten($color: $main-color, $amount: 10%);
+    //  animation: boyut 1s; 
+   }
+   &--javascript{
+     background-color: lighten($color: $main-color, $amount: 15%); 
+    //  animation: boyut 1s;
+   }
+   &--php{
+     background-color: lighten($color: $main-color, $amount: 20%); 
+    //  animation: boyut 1s;
+   }
+ 
+ }
+
+ .form{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.form-label{
+    color: $main-font-color;
+    font-weight: bold;
+    display: block;
+}
+
+.form-input{
+    width: 100%;
+    margin-top: .25rem;
+    margin-bottom: .75rem;
+    outline: none;
+    border: 1px solid $main-font-color;
+    border-radius: .3rem;
+    padding:0.5rem;
+    color: inherit;
+    resize: vertical;
+    max-height: 150px;
+    &:hover,&:focus{
+        border-color: red;
+        animation: input .1s;
+    }
+}
+
+.btn-container{
+    text-align: right;
+}

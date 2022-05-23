@@ -1,0 +1,65 @@
+@keyframes soldanGelenYazi{
+    0%{
+        transform: translateX(-50%);
+    }
+    70%{
+        transform: translateX(20%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes sagdanGelenYazi{
+    0%{
+        transform: translateX(50%)
+    }
+    70%{
+        transform: translateX(-50%)
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes iceridenGelen{
+    0%{
+        transform: scale(0);
+    }
+    70%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes asagiYuxari{
+    0%{
+        transform: translateY(50%);
+    }
+
+    70%{
+        transform: translateY(-200%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes boyut{
+  
+    100%{
+        transform: scale(1.1);
+    }
+}
+
+@keyframes input{
+    0%{
+        transform: translateX(5%);
+    }
+    50%{
+        transform: translateX(-5%);
+    }
+   
+}

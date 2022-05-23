@@ -1,0 +1,132 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: $main-font-color;
+}
+.site-logo{
+    height: 3rem;
+    transition: .5s;
+    &:hover{
+     transform:translateX(-50%) ;
+    }
+}
+.fullscreen-header{
+    height: 100vh;
+    @include flex-center;
+    flex-direction: column;
+    background-image: url(https://wallpaperaccess.com/full/1393206.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: center;
+}
+.fullscreen-header{
+    height: 100vh;
+    @include flex-center;
+    flex-direction: column;
+    background-image: url(https://wallpaperaccess.com/full/1393206.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: center;
+}
+
+
+.nav{
+    background-color: $main-font-color;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    z-index: 1;
+    @include responsive(small){
+        display: flex;
+        justify-content: space-between;
+    }
+    &__list{
+        display: flex;
+        list-style-type: none;
+        justify-content:space-around;
+        align-items: center;
+        margin-bottom: 1rem;
+        &-item{
+            text-decoration: none;
+            color: white;
+            margin-left: 1rem;
+            &:hover{
+               color: $main-color-ligth;
+            }
+        }
+    }
+}
+
+
+.header-title{
+    font-size: 3rem;
+    color: $main-font-color;
+    animation: soldanGelenYazi 1s ;
+}
+.header-subtitle{
+    font-size: 1.5rem;
+    color: $main-font-color;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    animation: sagdanGelenYazi 1s;
+}
+.section{
+    margin: 1rem 0;
+    padding: 1rem;
+    &-title{
+        text-align: center;
+        margin: 1rem;
+    }
+    &--accent{
+        background-color: $main-font-color;
+    }
+}
+.tehsil-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    @include responsive(medium){
+        flex-direction: row;
+        max-width: 90%;
+
+    }
+    @include responsive(desktop){
+        flex-direction: row;
+        max-width: 70%;
+    }
+}
+
+.haqqında-grid{
+    display: grid;
+    grid-template-columns: minmax(auto, 500px);
+    row-gap: 2rem;
+    padding: .5rem;
+    &__item{
+        @include flex-center;
+    }
+    &__resim{
+        width: 20%;
+    }
+    &__yazi{
+        margin-left: 0.5rem;
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+
+    @include responsive(medium){
+        grid-template-columns: repeat(2, minmax(auto, 500px));
+        justify-content: center;
+    }
+}
+
+.icon-asagi{
+    position: absolute;
+    width: 2.5rem;
+    bottom: 1rem;
+    color: black;
+    animation: asagiYuxari 2s infinite alternate;
+}

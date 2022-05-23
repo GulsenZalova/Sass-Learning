@@ -1,0 +1,488 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media (min-width: 576px) {
+  html {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@-webkit-keyframes soldanGelenYazi {
+  0% {
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  70% {
+    -webkit-transform: translateX(20%);
+            transform: translateX(20%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes soldanGelenYazi {
+  0% {
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  70% {
+    -webkit-transform: translateX(20%);
+            transform: translateX(20%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes sagdanGelenYazi {
+  0% {
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+  }
+  70% {
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes sagdanGelenYazi {
+  0% {
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+  }
+  70% {
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes iceridenGelen {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  70% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes iceridenGelen {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  70% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@-webkit-keyframes asagiYuxari {
+  0% {
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+  }
+  70% {
+    -webkit-transform: translateY(-200%);
+            transform: translateY(-200%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes asagiYuxari {
+  0% {
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+  }
+  70% {
+    -webkit-transform: translateY(-200%);
+            transform: translateY(-200%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes boyut {
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@keyframes boyut {
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@-webkit-keyframes input {
+  0% {
+    -webkit-transform: translateX(5%);
+            transform: translateX(5%);
+  }
+  50% {
+    -webkit-transform: translateX(-5%);
+            transform: translateX(-5%);
+  }
+}
+
+@keyframes input {
+  0% {
+    -webkit-transform: translateX(5%);
+            transform: translateX(5%);
+  }
+  50% {
+    -webkit-transform: translateX(-5%);
+            transform: translateX(-5%);
+  }
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #182225;
+}
+
+.site-logo {
+  height: 3rem;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.site-logo:hover {
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.fullscreen-header {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(https://wallpaperaccess.com/full/1393206.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: center;
+}
+
+.fullscreen-header {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(https://wallpaperaccess.com/full/1393206.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: center;
+}
+
+.nav {
+  background-color: #182225;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  z-index: 1;
+}
+
+@media (min-width: 576px) {
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1rem;
+}
+
+.nav__list-item {
+  text-decoration: none;
+  color: white;
+  margin-left: 1rem;
+}
+
+.nav__list-item:hover {
+  color: #21c1e2;
+}
+
+.header-title {
+  font-size: 3rem;
+  color: #182225;
+  -webkit-animation: soldanGelenYazi 1s;
+          animation: soldanGelenYazi 1s;
+}
+
+.header-subtitle {
+  font-size: 1.5rem;
+  color: #182225;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  -webkit-animation: sagdanGelenYazi 1s;
+          animation: sagdanGelenYazi 1s;
+}
+
+.section {
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+.section-title {
+  text-align: center;
+  margin: 1rem;
+}
+
+.section--accent {
+  background-color: #182225;
+}
+
+.tehsil-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .tehsil-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 992px) {
+  .tehsil-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    max-width: 70%;
+  }
+}
+
+.haqqında-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(auto, 500px);
+      grid-template-columns: minmax(auto, 500px);
+  row-gap: 2rem;
+  padding: .5rem;
+}
+
+.haqqında-grid__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.haqqında-grid__resim {
+  width: 20%;
+}
+
+.haqqında-grid__yazi {
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  .haqqında-grid {
+    -ms-grid-columns: (minmax(auto, 500px))[2];
+        grid-template-columns: repeat(2, minmax(auto, 500px));
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.icon-asagi {
+  position: absolute;
+  width: 2.5rem;
+  bottom: 1rem;
+  color: black;
+  -webkit-animation: asagiYuxari 2s infinite alternate;
+          animation: asagiYuxari 2s infinite alternate;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  background-color: #189db8;
+  border-radius: 10px;
+  padding: .25rem 1rem;
+  -webkit-animation: iceridenGelen 1s;
+          animation: iceridenGelen 1s;
+}
+
+.btn:hover {
+  background-color: #21c1e2;
+  color: #182225;
+}
+
+.tehsil-card {
+  text-align: center;
+  padding: 1rem;
+  margin: .5rem 1rem;
+  border: 1px solid #182225;
+  border-radius: .5rem;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.tehsil-card:hover {
+  -webkit-animation: boyut 1s;
+          animation: boyut 1s;
+}
+
+.tehsil-card--java {
+  background-color: #1bb0cf;
+}
+
+.tehsil-card--pythone {
+  background-color: #21c1e2;
+}
+
+.tehsil-card--javascript {
+  background-color: #38c8e5;
+}
+
+.tehsil-card--php {
+  background-color: #4ecee8;
+}
+
+.form {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.form-label {
+  color: #182225;
+  font-weight: bold;
+  display: block;
+}
+
+.form-input {
+  width: 100%;
+  margin-top: .25rem;
+  margin-bottom: .75rem;
+  outline: none;
+  border: 1px solid #182225;
+  border-radius: .3rem;
+  padding: 0.5rem;
+  color: inherit;
+  resize: vertical;
+  max-height: 150px;
+}
+
+.form-input:hover, .form-input:focus {
+  border-color: red;
+  -webkit-animation: input .1s;
+          animation: input .1s;
+}
+
+.btn-container {
+  text-align: right;
+}
