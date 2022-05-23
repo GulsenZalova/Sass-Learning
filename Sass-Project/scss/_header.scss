@@ -3,16 +3,42 @@
     justify-content:space-between ;
     padding-top: 1rem;
     &__logo{
-        width: 78px;
-        height: 78px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    &__items{
+        display: flex;
+        li{
+            padding: 1rem 1.5rem;
+            a{
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+                border-bottom: 3px transparent solid;
+                padding-bottom: .5rem;
+                transition: border-color 0.5s;
+                &:hover{
+                    border-color: black ;
+                }
+                &.active{
+                    border-color:$primary-color;
+                }
+            }
+        }
     }
 }
 
 #header{
     &__home{
-        background-image: url(https://www.twenty20.com/photos/a72b5d59-583f-4392-a40e-5d118dcfa70a);
+        background-image: url(https://www.komando.com/wp-content/uploads/2018/11/dreamstime_m_87808373.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+       background-position: center;
         height: 100vh;
-        color: blue;
+        color: red;
 
         .header-content{
             text-align: center;
@@ -22,6 +48,7 @@
         h1{
             font-size: 4rem;
             line-height: 1.2;
+            color: $primary-color;
         }
         .typewrite{
             display: block;

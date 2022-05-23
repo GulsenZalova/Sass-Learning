@@ -78,6 +78,29 @@ input[class^='btn-']:hover {
   margin: 4rem 0;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.border-bottom {
+  height: 3px;
+  width: 3rem;
+  background-color: #EF6D6D;
+  margin: 0 auto 1rem  auto;
+}
+
+.lead {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  word-spacing: 2px;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -115,14 +138,48 @@ img {
 }
 
 .main-nav__logo {
-  width: 78px;
-  height: 78px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.main-nav__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-nav__items li {
+  padding: 1rem 1.5rem;
+}
+
+.main-nav__items li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  border-bottom: 3px transparent solid;
+  padding-bottom: .5rem;
+  -webkit-transition: border-color 0.5s;
+  transition: border-color 0.5s;
+}
+
+.main-nav__items li a:hover {
+  border-color: black;
+}
+
+.main-nav__items li a.active {
+  border-color: #EF6D6D;
 }
 
 #header__home {
-  background-image: url(https://www.twenty20.com/photos/a72b5d59-583f-4392-a40e-5d118dcfa70a);
+  background-image: url(https://www.komando.com/wp-content/uploads/2018/11/dreamstime_m_87808373.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
   height: 100vh;
-  color: blue;
+  color: red;
 }
 
 #header__home .header-content {
@@ -133,8 +190,129 @@ img {
 #header__home h1 {
   font-size: 4rem;
   line-height: 1.2;
+  color: #EF6D6D;
 }
 
 #header__home .typewrite {
   display: block;
+}
+
+#home__a .skills {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+#home__a i {
+  color: #EF6D6D;
+  padding-bottom: .5rem;
+}
+
+#home__b .profile {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+#home__b .profile li.title {
+  font-size: 1rem;
+}
+
+#home__b .profile li.number {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#home__b .profile div {
+  padding: 3rem 0;
+}
+
+#home__b .profile div:nth-child(odd) {
+  background-color: #f4f4f4;
+}
+
+#home__b .profile div:nth-child(even) {
+  background-color: #ccc;
+}
+
+#home__c .process {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  text-align: center;
+}
+
+#home__c .process__step {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 25px;
+  background-color: #EF6D6D;
+  border-radius: 50%;
+  line-height: 1rem;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  padding: 15px;
+}
+
+#home__c .process__icon {
+  position: relative;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+#home__c .process__icon:hover {
+  color: #333;
+  background-color: #EF6D6D;
+}
+
+#home__c .process__icon:hover .process__step {
+  color: #EF6D6D;
+  background-color: #333;
+}
+
+#main-footer {
+  background-color: #333;
+  color: #ffff;
+  height: 5rem;
+}
+
+#main-footer .footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 5rem;
+}
+
+#main-footer .footer-content .social .fab {
+  margin-right: 1rem;
+  border: 2px solid #ffff;
+  border-radius: 50%;
+  text-align: center;
+  padding: 0.6rem;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+#main-footer .footer-content .social .fab:hover {
+  background-color: #EF6D6D;
 }
