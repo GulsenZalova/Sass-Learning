@@ -1,0 +1,31 @@
+#about{
+    &-a{
+        .info{
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 1.2rem;
+            &-image{
+                border: 1px solid $light-color;
+                padding: .5rem;
+                border-radius: 3px;
+            }
+            &__bio{
+                border:1px solid $light-color;
+                padding: .8rem;
+            }
+        }
+    }
+    &-b{
+        color: #ffff;
+        .progress{
+            height: 20px;
+            background-color: red;
+            border-radius: 5px;
+            margin-bottom: .8rem;
+            div{
+                height: 100%;
+                background-color: red;
+            }
+        }
+    }
+}

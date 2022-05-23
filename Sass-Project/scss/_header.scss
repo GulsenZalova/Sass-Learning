@@ -55,4 +55,9 @@
         }
 
     }
+    &__inner{
+        background-color: $dark-color;
+        height: 5.5rem;
+        border-bottom: 3px solid $primary-color;
+    }
 }

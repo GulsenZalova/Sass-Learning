@@ -197,6 +197,12 @@ img {
   display: block;
 }
 
+#header__inner {
+  background-color: #333;
+  height: 5.5rem;
+  border-bottom: 3px solid #EF6D6D;
+}
+
 #home__a .skills {
   display: -ms-grid;
   display: grid;
@@ -282,6 +288,14 @@ img {
 #home__c .process__icon:hover .process__step {
   color: #EF6D6D;
   background-color: #333;
+}
+
+#about-a .info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  gap: 1.2rem;
 }
 
 #main-footer {
